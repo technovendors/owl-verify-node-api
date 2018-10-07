@@ -1,5 +1,3 @@
-# owl-verify-node-api
-
 <h1 align="center">
   Owl Verify API for Node.js
 </h1>
