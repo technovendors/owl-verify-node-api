@@ -36,3 +36,39 @@ owlVerify.createList(params, function(err, result) {
     if (err) console.log(err.toString());
     else console.log(result);
 });
+```
+
+#### `subscribe`
+
+```js
+var params = {
+  list_id: 'your_list_id',
+  email: 'abc@xyz.com'
+}
+
+owlVerify.subscribe(params, function(err, result) {
+    if (err) console.log(err.toString());
+    else console.log(result);
+});
+```
+
+#### `bulkSubscribe`
+
+```js
+var params = {
+  list_id: 'your_list_id',
+  data: [
+      {
+          email: 'abc@xyz.com',
+      },
+      {
+          email: 'mno@xyz.com',
+      }
+  ]
+}
+
+owlVerify.bulkSubscribe(params, function(err, result) {
+    if (err) console.log(err.toString());
+    else console.log(result);
+});
+```
