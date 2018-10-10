@@ -18,7 +18,7 @@ First of all add this.
 
 ```js
 var OWLVerify = require('@technovendors/owl-verify-node-api'),
-    owlVerify = new OWLVerify('https://owl-verification-url/', 'your_api_key');
+    owlVerify = new OWLVerify('your_api_key');
 ```
 
 <br>
