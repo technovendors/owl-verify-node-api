@@ -1,9 +1,9 @@
 let req = require('request'),
     querystring = require('querystring');
 
-module.exports = function(url, apiKey) {
-    this.url = url;
+module.exports = function(apiKey, url = 'https://cnai48194m.execute-api.us-east-2.amazonaws.com/v1/') {
     this.apiKey = apiKey;
+    this.url = url ;
 };
 
 let funcObj = {
